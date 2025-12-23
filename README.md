@@ -1,4 +1,4 @@
-# RL for Adaptive Portfolio Management
+# RL For Financial Time-Series Forecasting 
 
 The project investigates how **Reinforcement Learning (RL)** combined with **deep learning feature extraction (GRU)** can create dynamic, personalized trading strategies that adapt to market conditions and user-defined risk profiles.
 
