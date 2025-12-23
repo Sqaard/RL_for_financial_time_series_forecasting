@@ -89,6 +89,3 @@ This repository forms the **validated core AI engine** for the financial co-pilo
 
 ---
 
-## 📄 Citation & License
-
-If this work contributes to your research, please consider citing it. This project is for educational and research purposes.
