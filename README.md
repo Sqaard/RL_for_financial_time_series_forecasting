@@ -26,7 +26,7 @@ The core hypothesis was that **feature quality is paramount**. We engineered pre
 *Note: Results from the test period during a general market decline.*
 
 ---
-
+```
 ## 📁 Repository Structure
 ├── 📓 Data_Preprocessing.ipynb # Creates the dataset. Calculates technical indicators
 │ # and adds forward-looking trends using a GRU.
@@ -42,7 +42,7 @@ The core hypothesis was that **feature quality is paramount**. We engineered pre
 │ ├── ppo_50000_metrics_comparison.png
 │ └── ppo_50000_metrics_summary.csv
 └── 📄 README.md # This file.
-
+```
 
 ---
 
