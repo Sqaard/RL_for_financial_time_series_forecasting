@@ -10,7 +10,7 @@ The project investigates how **Reinforcement Learning (RL)** combined with **dee
 
 The core hypothesis was that **feature quality is paramount**. We engineered predictive features using a Gated Recurrent Unit (GRU) network and compared their effectiveness against traditional technical indicators within various RL environments.
 
-**The Key Result:** The **PPO agent trained on GRU features achieved a positive annual return (+1.12%)** and significantly outperformed both a baseline model using standard indicators and a complex ensemble of five different RL algorithms. This validates GRU-based features as a superior signal for RL-driven trading.
+**The Key Result:** The **PPO agent trained on GRU features** significantly outperformed both a baseline model using standard indicators and a complex ensemble of five different RL algorithms. This validates GRU-based features as a superior signal for RL-driven trading.
 
 ### 🏆 Performance Snapshot
 
