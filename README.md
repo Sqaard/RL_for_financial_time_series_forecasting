@@ -21,7 +21,6 @@ The core hypothesis was that **feature quality is paramount**. We engineered pre
 | **Ensemble Model**<br>(A2C+PPO+DDPG+SAC+TD3) | **-5.11%** | *N/A* | • **Outperformed by a single PPO+GRU agent** by 6.23 p.p.<br>• Still **4.09 p.p. more resilient** than the DJI benchmark. |
 | **DJI Index (Benchmark)** | **-9.20%** | *N/A* | Market benchmark performance during the test period. |
 
-**Core Takeaway:** In a declining market, the **PPO agent powered by GRU-derived features was the only strategy to achieve a positive return (+1.12%)**, decisively outperforming all other RL configurations and the market itself. This strongly validates the hypothesis that deep learning-based feature engineering provides a critical advantage for RL in financial forecasting.
 
 *Note: Results from the test period during a general market decline.*
 
