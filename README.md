@@ -1,5 +1,4 @@
-# RL_for_financial_time_series_forecasting
-# Эксперимент: Reinforcement Learning for Time-Series Forecasting
+# Reinforcement Learning for Time-Series Forecasting
 
 ## Описание эксперимента А
 Сравнение 6 конфигураций алгоритма PPO с различными функциями награды и архитектурами политик.
