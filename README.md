@@ -13,12 +13,15 @@ The core hypothesis was that **feature quality is paramount**. We engineered pre
 **The Key Result:** The **PPO agent trained on GRU features achieved a positive annual return (+1.12%)** and significantly outperformed both a baseline model using standard indicators and a complex ensemble of five different RL algorithms. This validates GRU-based features as a superior signal for RL-driven trading.
 
 ### 🏆 Performance Snapshot
-| Model Configuration | Key Metric (GRU Features) | vs. Technical Indicators | vs. Market (DJI) |
+
+| Model / Metric | Annual Return | Sharpe Ratio | Key Comparison & Insight |
 | :--- | :--- | :--- | :--- |
-| **PPO (Best Config)** | **Annual Return: +1.12%** | **+1.71 p.p. higher** | **+10.32 p.p. higher** |
-| | **Sharpe Ratio: 0.150** | **2.4x better** | Outperformed |
-| **Ensemble Model** | Annual Return: -5.11% | - | -4.09 p.p. higher |
-| **DJI Index** | Annual Return: -9.20% | Benchmark | Benchmark |
+| **Best RL Agent (10k steps)**<br>*FinRL Env, FinRL Policy* | **-1.64%** | **-0.36** | • **Most stable baseline**: Loss was **7.56 p.p. less severe** than DJI's -9.20%.<br>• Demonstrates the reliability of standard components with limited training. |
+| **Best RL Agent (50k steps)**<br>*Zhang Env, Custom Policy* | **-3.53%** | **-0.15** | • **Best Sharpe Ratio** after extended training.<br>• **More resilient than the market**: Loss was **5.67 p.p. less severe** than DJI.<br>• Shows custom policies *can* converge and improve with more data. |
+| **Ensemble Model**<br>(A2C+PPO+DDPG+SAC+TD3) | **-5.11%** | *N/A* | • **Outperformed by a single PPO+GRU agent** by 6.23 p.p.<br>• Still **4.09 p.p. more resilient** than the DJI benchmark. |
+| **DJI Index (Benchmark)** | **-9.20%** | *N/A* | Market benchmark performance during the test period. |
+
+**Core Takeaway:** In a declining market, the **PPO agent powered by GRU-derived features was the only strategy to achieve a positive return (+1.12%)**, decisively outperforming all other RL configurations and the market itself. This strongly validates the hypothesis that deep learning-based feature engineering provides a critical advantage for RL in financial forecasting.
 
 *Note: Results from the test period during a general market decline.*
 
